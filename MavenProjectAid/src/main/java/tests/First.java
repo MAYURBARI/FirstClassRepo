@@ -12,8 +12,12 @@ public class First {
  public WebDriver driver;
  
   @Test
-  public void openMyBlog() {
+  public void openMyBlog1() {
  driver.get("https://www.softwaretestingmaterial.com/");
+  }
+  @Test
+  public void openMyBlog2() {
+ driver.get("https://www.guru99.com/testng-execute-multiple-test-suites.html");
   }
   
   @BeforeClass

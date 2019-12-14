@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-10T11:03:41Z" name="Suite" finished-at="2019-12-10T11:03:48Z" duration-ms="6759">
+  <suite started-at="2019-12-14T06:43:27Z" name="Suite" finished-at="2019-12-14T06:43:39Z" duration-ms="12254">
     <groups>
     </groups>
-    <test started-at="2019-12-10T11:03:41Z" name="Test" finished-at="2019-12-10T11:03:48Z" duration-ms="6759">
+    <test started-at="2019-12-14T06:43:27Z" name="Test" finished-at="2019-12-14T06:43:39Z" duration-ms="12254">
       <class name="tests.First">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.First@2a40cd94]" started-at="2019-12-10T16:33:41Z" name="beforeClass" finished-at="2019-12-10T16:33:44Z" duration-ms="2869" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.First@f4168b8]" started-at="2019-12-14T12:13:27Z" name="beforeClass" finished-at="2019-12-14T12:13:29Z" duration-ms="2712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openMyBlog()[pri:0, instance:tests.First@2a40cd94]" started-at="2019-12-10T16:33:44Z" name="openMyBlog" finished-at="2019-12-10T16:33:47Z" duration-ms="2817" status="PASS">
+        <test-method signature="openMyBlog1()[pri:0, instance:tests.First@f4168b8]" started-at="2019-12-14T12:13:29Z" name="openMyBlog1" finished-at="2019-12-14T12:13:32Z" duration-ms="2453" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openMyBlog -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.First@2a40cd94]" started-at="2019-12-10T16:33:47Z" name="afterClass" finished-at="2019-12-10T16:33:48Z" duration-ms="1062" status="PASS">
+        </test-method> <!-- openMyBlog1 -->
+        <test-method signature="openMyBlog2()[pri:0, instance:tests.First@f4168b8]" started-at="2019-12-14T12:13:32Z" name="openMyBlog2" finished-at="2019-12-14T12:13:38Z" duration-ms="6128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.First@f4168b8]" started-at="2019-12-14T12:13:38Z" name="afterClass" finished-at="2019-12-14T12:13:39Z" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
